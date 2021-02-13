@@ -2,7 +2,13 @@
     <div class="img-container">
         <img src="./img/dn.jpg" alt="nh">
     </div>
+    <h2>Death Note: Light is Reborn as a Shinigami</h2>
     <p id="content">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, quaerat hic esse quisquam suscipit deleniti earum quasi eos velit voluptatibus iure possimus commodi dolore non ea quam aut omnis maxime repellat temporibus ad iste? Obcaecati earum necessitatibus error! Deserunt saepe nihil alias ea ipsum omnis officiis accusantium perferendis at maiores natus amet, veritatis quia magnam porro aliquam. Laborum pariatur nihil fugit incidunt distinctio quas provident sed praesentium dolores. Nemo consequuntur molestiae modi quibusdam impedit ullam, tempora, voluptate pariatur, voluptatibus rem animi aperiam possimus veritatis atque natus. Qui autem quidem nobis molestiae omnis distinctio voluptas eius dicta, quas impedit non nihil.
+        In Death Note: Relight, an unnamed Shinigami appears. Many fans believe this Death God is Light reincarnated. Plenty of evidence exists to support this theory. For one thing, the Shinigami wears a blood-stained coat resembling the one Light dies in.
+
+        Additionally, his mouth and voice appear similar to Light's. He knows about Ryuk's unusual affinity for apples, even throwing one to Ryuk the way Light did in the past. There are continuity issues between the original Death Note and Relight, so it's possible this Shinigami is meant to be Light, even though the original series states nothing happens after death.
     </p>
+    <div class="button">
+        <a href="https://www.ranker.com/list/death-note-fan-theories/anna-lindwasser">See More</a>
+    </div>
 </div>

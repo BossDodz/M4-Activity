@@ -1,7 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 * {
   box-sizing: border-box;
   padding: 0;
-  margin: 0; }
+  margin: 0;
+  font-family: "Lato", sans-serif; }
+
+body {
+  background: url(https://i.pinimg.com/originals/56/58/3b/56583b7b4e60e3e4dc60a60e0174bc06.jpg);
+  background-size: cover;
+  background-attachment: fixed; }
+
+#main-header {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.9);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 1; }
+  #main-header .navs ul {
+    list-style: none; }
+    #main-header .navs ul .list-items {
+      display: inline-block;
+      padding: 20px; }
+      #main-header .navs ul .list-items a {
+        color: black; }
 
 #main-content {
   position: absolute;
@@ -13,15 +37,52 @@
   padding: 1.3rem; }
 
 td {
-  border: 1px solid black;
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 15px;
   border-collapse: collapse;
-  table-layout: fixed;
   display: inline-block;
   height: 600px;
   width: 330px;
-  padding: 1.2rem;
   overflow: auto;
-  margin: 10px; }
+  margin: 10px;
+  /* Hide scrollbar for IE, Edge and Firefox */ }
+  td::-webkit-scrollbar {
+    display: none; }
+  td {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */ }
+  td .container {
+    color: white;
+    position: relative;
+    padding: 1.3rem;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    min-height: 100%;
+    font-size: 1.2em;
+    line-height: 1.6rem; }
+    td .container h2 {
+      text-align: center;
+      padding: 10px;
+      margin-bottom: 10px; }
+    td .container p {
+      text-align: justify; }
+    td .container .button {
+      text-align: center;
+      margin: 50px 0 30px 0; }
+      td .container .button a {
+        padding: 10px;
+        border: 1px solid white;
+        border-radius: 10px;
+        text-decoration: none;
+        color: white; }
+        td .container .button a:hover {
+          border: 1px solid #b6b4b4;
+          background: #b6b4b4;
+          color: #535353;
+          transition: 0.2s ease; }
 
 .img-container {
   width: 100%; }
