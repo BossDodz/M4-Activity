@@ -1,0 +1,23 @@
+{
+  "name": "m4-king",
+  "version": "1.0.0",
+  "description": "# USAGE",
+  "main": "index.js",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "sass": "node-sass -w scss -o dist/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BossDodz/M4-Activity.git"
+  },
+  "author": "Charles King",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BossDodz/M4-Activity/issues"
+  },
+  "homepage": "https://github.com/BossDodz/M4-Activity#readme"
+}
