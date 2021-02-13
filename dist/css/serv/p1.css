@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 * {
   box-sizing: border-box;
   padding: 0;
@@ -9,6 +10,15 @@ body {
   background: url(https://i.pinimg.com/originals/56/58/3b/56583b7b4e60e3e4dc60a60e0174bc06.jpg);
   background-size: cover;
   background-attachment: fixed; }
+
+a {
+  color: black; }
+  a:hover {
+    color: #858383; }
+  a #back {
+    position: absolute;
+    top: 20px;
+    left: 90px; }
 
 #main-header {
   position: absolute;

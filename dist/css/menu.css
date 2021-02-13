@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif; }
+
+body#body {
+  background-color: #ffffff;
+  background-image: linear-gradient(180deg, #ffffff 0%, #6284ff 50%, #ff0000 100%);
+  background-size: cover;
+  background-attachment: fixed; }
+
+#main-content {
+  display: flex;
+  flex-flow: column wrap;
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden; }
+  #main-content .card {
+    position: absolute;
+    width: 500px;
+    height: 650px;
+    border-radius: 20px;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    background: rgba(255, 255, 255, 0.1); }
+    #main-content .card:hover .contents {
+      transform: translateY(0);
+      opacity: 1; }
+    #main-content .card:hover .cover {
+      opacity: 0; }
+    #main-content .card .contents {
+      z-index: 3;
+      position: relative;
+      display: flex;
+      flex-flow: column wrap;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      transform: translateY(100px);
+      opacity: 0;
+      transition: 0.3s; }
+      #main-content .card .contents span {
+        cursor: pointer;
+        padding: 2rem;
+        margin: 2rem;
+        width: 70%;
+        text-align: center;
+        color: white;
+        border: 1px solid transparent;
+        border-radius: 60px; }
+        #main-content .card .contents span a {
+          color: white;
+          text-decoration: none;
+          font-size: 30px; }
+        #main-content .card .contents span:hover {
+          border: 1px solid white;
+          border-radius: 60px;
+          background: white;
+          transition: 0.1s ease-out; }
+          #main-content .card .contents span:hover a {
+            color: black; }
+
+.cover {
+  z-index: -1;
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+  color: rgba(255, 255, 255, 0.5);
+  opacity: 1;
+  transition: 0.3s; }
+  .cover .cover-text {
+    font-size: 90px;
+    line-height: 1.5; }

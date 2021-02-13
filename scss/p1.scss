@@ -1,16 +1,29 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import "./partials/config";
 
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  font-family: "Lato", sans-serif;
+  font-family: $main-font;
 }
 
 body {
   background: url(https://i.pinimg.com/originals/56/58/3b/56583b7b4e60e3e4dc60a60e0174bc06.jpg);
   background-size: cover;
   background-attachment: fixed;
+}
+
+a {
+  color: black;
+
+  &:hover {
+    color: rgb(133, 131, 131);
+  }
+  #back {
+    position: absolute;
+    top: 20px;
+    left: 90px;
+  }
 }
 
 #main-header {
