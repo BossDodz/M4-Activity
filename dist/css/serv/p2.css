@@ -29,6 +29,7 @@
       color: #f6961c; }
 
 #main-content {
+  min-height: calc(100vh - (90px + 103px));
   margin-top: 20px;
   padding: 1rem; }
   #main-content .container {
